@@ -1,0 +1,50 @@
+Comando Linux
+Comando	Descripción	¿Cómo usarlo? / Ejemplos
+clear	Limpia la pantalla de la terminal	Cuando la pantalla está muy cargada y ya no ocupamos esos datos digitamos clear
+Cd<nombre del directorio>	Cambia el directorio en el que estamos en ese momento	Cd~/” nombre de la carpeta” para ir a esa carpeta con nuestro usuario actual
+ls<Directorio>	Muestra lista de los archivos de ese directorio	ls ~/” nombre de la carpeta” y vemos todos los archivos dentro de esa carpeta
+cp <origen> 
+<destino>	Copian un archivo de ese origen en el destino	Cp “nombre archivo que quiero copiar” “nombre del destino donde lo quiero pegar”
+pwd	Me dice el directorio actual en el que me encuentro	Si se pone pwd dentro de directorio “universidad” se imprimiría ese directorio
+Ip a	Muestra dirección ip	Ip a y se imprime la dirección 192… (linet)
+history|grep “comando”	Muestra el historial de todos los comandos que hemos usuado	history|grep e imprime todos los comandos digitados desde el inicio por medio de un historial
+sudo apt upadate	refresca	Se digita el comando y en pantalla se imprime los archivos que necesitan update y ejecuta la acción
+sudo apt upgarde	actualiza	Se imprime en pantalla la realización de las actualizaciones y ejecuta el comando
+man “apt” “ls” o cualquier otro comando	Para conocer el manual y función de esos comandos	Se imprime la forma de usarlos y así no recurrir a internet, nos dice la función de esos comando. man ls= para ver directorios y folders
+whoami	Me dice que usuario estoy utilizando	Whoami =“jrojass131”
+sudo su	Cambiar al super usuario root	Con este usuario no se necesita la palabra “sudo”
+exit	Deja el usuario anterior	Exit y me retorna mi usuario anterior, si estaba en “root” <paso a “jrojasss131”
+cd.. 	Devolver la carpeta	Estamos en la carpeta “clase” cd.. nos devuelve a “universidad”
+sudo adduser	Agrega un usuario	Puedo crear otro usuario de nombre “Goku” y con su propia contraseña
+nano	Crea un archivo	Un rachivo que hay que ponerle nombre y se digita ctrl x
+cat	Abre archivos con su contenido	Cat “universidad”: abre su contenido
+more	Misma función de cat, pero para archivos más grandes	cat|more “Biblia”
+mv<nombre de archivo><donde queremos moverlo>	Para mover un archivo de un lugar a otro	mv “universidad” “clase”
+head-#de línea<nombre del archivo>	Imprime al inicio las primeras líneas que se especifiquen en ese archivo	Head-10 “Biblia”: imprime las primeras 10 líneas de ese archivo
+tail-#de línea<nombre del archivo> 	Imprime las últimas líneas que se especifiquen en ese archivo	tail-3 “Biblia”: imprime las últimas 3 líneas del archivo
+
+
+Lab #4 comandos
+ sudo pacman -Syu
+ sudo pacman -Syu virtualbox para instalr virtualbox
+ yay -S google-chrome para instalar chrome
+ clear limpiar pantalla
+ cd abiri directorio
+ sudo pacman -S apache instala apache
+     nano /svr/html/index.html crea archivo para la página de apache
+     nano apache abre el archivo apache
+     sudo pacman -S neofetch  instala neofetch
+neofetch muestra neofetch
+uname -a obtiene info de la máquina
+sudo useradd -m Finnick -G wheel -p Hola ejemplo para añadir un usuario en manajro con contraseña
+sudo pacman -S unrar zip unzip p7zip gzip bzip2 instala zip
+sudo pacman -S yay actualiza
+sudo yay -S --needed base-devel muestra el repositorio core
+mkdir crea carpeta
+chmod permsisos
+chown permsiso del propietario
+rmdir elimina carpeta
+rm elimina archivos
+nano scriptCron.sh para crear script en bash
+
+
